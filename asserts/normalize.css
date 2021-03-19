@@ -1,0 +1,453 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------navbar1----------------*/
+
+#nav1
+{
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.container-fluid1{
+    background-color:blanchedalmond;
+    width: 100%;
+}
+
+.navbar-nav li {
+    padding: 10px;
+
+}
+
+.nav-link img{
+    width: 30px;
+    height: 30px;
+}
+
+#na
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    right: 0;
+}
+
+
+
+#nav1 ul li a:hover{
+    color: #007bff!important;
+
+}
+
+.navbar{
+    height: 40px;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+}
+.navbar-nav li a{
+    font-family: DialogInput;
+}
+
+/*----------------navbar2----------------*/
+
+#nav
+{
+    background-color: #007bff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+
+.navbar-nav li{
+    padding:  10px;
+}
+
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    right: 0;
+}
+.navbar-nav li b{
+    float: right;
+    text-align: left;
+    right: 0;
+    cursor: pointer;
+}
+
+#nav1 span{
+    right: 0;
+    text-align: right;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 39px;
+
+}
+#nav ul li a:hover{
+    color: #007bff!important;
+
+}
+
+.navbar{
+    height: 100px;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #ff253a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.navbar-brand p1{
+    font-family: 'Libre Barcode 39 Text', cursive;    color: black;
+    font-size: 38px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#slider{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-caption{
+    top: 10%;
+    transform: translateY(-50% );
+    bottom: initial!important;
+}
+
+.carousel-caption p1{
+    font-family: "Adobe Caslon Pro Bold";
+    font-size: 36px;
+    padding-bottom: 30px;
+    color: #222222;
+    right: 120px;
+}
+
+.carousel-caption p{
+    font-size: 30px;
+    color: #ffffff;
+}
+/*---------Video---------*/
+#Videoedit{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/VideoGra.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;!important;
+    margin-bottom: 10px;
+}
+#Videoedit h1{
+    text-align:center ;
+    color: #efefef!important;
+    padding-top: 30px;
+}
+#Videoedit h2{
+    text-align:left ;
+    color: white!important;
+    padding-top: 30px;
+}
+#Videoedit h1::after{
+    content: '';
+    background: darkgray;
+    display: block;
+    height: 3px;
+    width: 270px;
+    margin: 20px auto 5px;
+}
+
+/*---------LOGO---------*/
+#LogoDesign{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/logo.png);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;!important;
+    margin-bottom: 10px;
+}
+
+#LogoDesign h1{
+    text-align:center;
+    color: #efefef!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#LogoDesign h1::after{
+    content: '';
+    background: darkgray;
+    display: block;
+    height: 3px;
+    width: 270px;
+    margin: 20px auto 5px;
+}
+
+#LogoDesign h2{
+    text-align:left ;
+    color: white!important;
+    padding-top: 30px;
+}
+/*---------WebDesigning---------*/
+#WebDesigning{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/webBack.png);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;!important;
+    margin-bottom: 10px;
+}
+#WebDesigning h1{
+    text-align:center ;
+    color: #efefef!important;
+    padding-top: 30px;
+}
+#WebDesigning h2{
+    text-align:left ;
+    color: white!important;
+    padding-top: 30px;
+}
+#WebDesigning h1::after{
+    content: '';
+    background: darkgray;
+    display: block;
+    height: 3px;
+    width: 270px;
+    margin: 20px auto 5px;
+}
+
+/*---------Flyer---------*/
+#Flyers{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/Fback.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;!important;
+    margin-bottom: 10px;
+}
+#Flyers h1{
+    text-align:center ;
+    color: #efefef!important;
+    padding-top: 30px;
+}
+#Flyers h2{
+    text-align:left ;
+    color: white!important;
+    padding-top: 30px;
+}
+#Flyers h1::after{
+    content: '';
+    background: darkgray;
+    display: block;
+    height: 3px;
+    width: 270px;
+    margin: 20px auto 5px;
+}
+/*---------PhotoEditting---------*/
+#PhotoEditting{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/photoback.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#PhotoEditting h1{
+    text-align:center ;
+    color: #efefef!important;
+    padding-top: 30px;
+}
+#PhotoEditting h2{
+    text-align:left ;
+    color: white!important;
+    padding-top: 30px;
+}
+#PhotoEditting h1::after{
+    content: '';
+    background: darkgray;
+    display: block;
+    height: 3px;
+    width: 270px;
+    margin: 20px auto 5px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+a{
+    text-decoration: none;
+}
+.box{
+    padding-bottom: 40px;
+    width: 420px;
+}
+.slide-img{
+
+
+    height: 230px ;
+    position: relative;
+}
+.slide-img img{
+
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+    box-sizing: border-box;
+}
+.detail-box{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.type{
+    display: flex;
+    flex-direction: column;
+}
+.type a{
+    color: #222222;
+    margin: 5px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 8px;
+}
+.type a:hover{
+    color: #007bff;
+}
+.type span{
+    color:rgba(26,26,26,0.5);
+}
+.Price{
+    color: #333333;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(92,95,236,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-btn{
+    text-align: center;
+    width:160px ;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #252525;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+
+}
+.order-btn:hover{
+    color: #FFFFFF;
+    background-color: #f15fa3;
+    transition: all ease 0.3s;
+}
+.overlay{
+    visibility: hidden;
+}
+.slide-img:hover .overlay{
+    visibility: visible;
+    animation: fade 0.5s;
+}
+@keyframes fade {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+/*---------top---------*/
+
+/*---------------contact---*/
+
+#contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+#contact h1{
+    text-align:center ;
+    color: #555!important;
+    padding-bottom: 10px;
+}
+
+#contact h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+.btn-primary{
+    margin-top: 30px;
+}
+#contact{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#777;
+}
+.contact-form{
+    margin-top: 20px;
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0!important;
+    border:none!important;
+
+
+}
+
+::placeholder{
+    color: #999!important;
+}
+.follow{
+    background: #ffffff;
+    padding: 10px;
+    margin-top: 45px;
+}
+
+.contact-info.fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#footer h4{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    text-align: center;
+    padding: 10px;
+}
