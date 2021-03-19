@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet"  type="text/css" href="asserts/regCSS.css" >
+  <link rel="stylesheet"  type="text/css" href="asserts/normalize.css" >
+  <link rel="stylesheet" href="asserts/fontAwesome/css/all.min.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="asserts/fontAwesome">
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"> </script>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>RegisterForm</title>
+</head>
+<body>
+<section id="nav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <p1>Cinemit LK</p1>
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+          <div class="Login/Reg">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Login/Reg
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="LoginForm.html"><i class="fas fa-sign-in-alt"></i>Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="RegForm.html"><i class="fas fa-sign-in-alt"></i>Register</a>
+              </li>
+            </ul>
+          </div>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="root.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="root.html">VIDEO EDITING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="root.html">LOGO DESIGNING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="root.html">WEB DESIGNING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="root.html">FLYERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="root.html">PHOTO EDITTING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="root.html">ABOUT US</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="root.html">CONTACT US</a>
+          </li>
+
+
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<div class="container">
+  <form>
+    <div class="row">
+      <h4>Account</h4>
+      <div class="input-group input-group-icon">
+        <input type="text" placeholder="Full Name"/>
+        <div class="input-icon"><i class="fa fa-user"></i></div>
+      </div>
+      <div class="input-group input-group-icon">
+        <input type="email" placeholder="Email Adress"/>
+        <div class="input-icon"><i class="fa fa-envelope"></i></div>
+      </div>
+      <div class="input-group input-group-icon">
+        <input type="password" placeholder="Password"/>
+        <div class="input-icon"><i class="fa fa-key"></i></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-half">
+        <h4>Date of Birth</h4>
+        <div class="input-group">
+          <div class="col-third">
+            <input type="text" placeholder="DD"/>
+          </div>
+          <div class="col-third">
+            <input type="text" placeholder="MM"/>
+          </div>
+          <div class="col-third">
+            <input type="text" placeholder="YYYY"/>
+          </div>
+        </div>
+      </div>
+      <div class="col-half">
+        <h4>Gender</h4>
+        <div class="input-group">
+          <input type="radio" name="gender" value="male" id="gender-male"/>
+          <label for="gender-male">Male</label>
+          <input type="radio" name="gender" value="female" id="gender-female"/>
+          <label for="gender-female">Female</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h4>Payment Details</h4>
+      <div class="input-group">
+        <input type="radio" name="payment-method" value="card" id="payment-method-card" checked="true"/>
+        <label for="payment-method-card"><span><i class="fa fa-cc-visa"></i>Credit Card</span></label>
+        <input type="radio" name="payment-method" value="paypal" id="payment-method-paypal"/>
+        <label for="payment-method-paypal"> <span><i class="fa fa-cc-paypal"></i>Paypal</span></label>
+      </div>
+      <div class="input-group input-group-icon">
+        <input type="text" placeholder="Card Number"/>
+        <div class="input-icon"><i class="fa fa-credit-card"></i></div>
+      </div>
+      <div class="col-half">
+        <div class="input-group input-group-icon">
+          <input type="text" placeholder="Card CVC"/>
+          <div class="input-icon"><i class="fa fa-user"></i></div>
+        </div>
+      </div>
+      <div class="col-half">
+        <div class="input-group">
+          <select>
+            <option>01 Jan</option>
+            <option>02 Jan</option>
+          </select>
+          <select>
+            <option>2015</option>
+            <option>2016</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h4>Terms and Conditions</h4>
+      <div class="input-group">
+        <input type="checkbox" id="terms"/>
+        <label for="terms">I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy policy.</label>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
